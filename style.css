@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  background-color: #f1faee;
+}
+
+.main {
+  margin: 100px;margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.canvas {
+  border-radius: 15px;
+  background-color: white;
+  max-width: 600px;
+  min-width: 600px;
+  max-height: 600px;
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 4px 8px 30px 1px lightgray;
+}
+
+.square {
+  border: 0px solid #181616;
+  margin: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+.add {
+  padding: 30px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+button,
+input {
+  background-color: azure;
+  color: black;
+  width: 100px;
+  height: 100px;
+  border-color: #181616;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: #a8dadc;
+}
+input {
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+}
+p {
+  text-align: center;
+  margin-top: 200px;
+  font-size: 40px;
+  font-weight: 900;
+}
+.slider-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider{
+  height: 100px;
+  width: 400px;
+}
+.clear{
+  
+}
