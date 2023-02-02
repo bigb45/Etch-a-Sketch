@@ -12,6 +12,7 @@ body {
 }
 .canvas {
   border-radius: 15px;
+  ;
   background-color: white;
   max-width: 600px;
   min-width: 600px;
@@ -61,7 +62,7 @@ input {
 }
 p {
   text-align: center;
-  margin-top: 200px;
+  margin-top: 80px;
   font-size: 40px;
   font-weight: 900;
 }
@@ -73,7 +74,4 @@ p {
 .slider{
   height: 100px;
   width: 400px;
-}
-.clear{
-  
 }

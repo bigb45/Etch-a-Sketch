@@ -39,6 +39,8 @@ function createGrid(y, x) {
     for (let j = 0; j < y; j++) {
       let square = document.createElement("div");
       square.style.background = "white";
+      square.style.border = "3px"
+
       square.style.width = `${canvas.offsetWidth / x}px`;
       square.style.height = `${canvas.offsetWidth / y}px`;
       square.addEventListener("mouseover", () => {
